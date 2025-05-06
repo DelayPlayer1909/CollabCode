@@ -1,12 +1,12 @@
-import { useAppContext } from "@/context/AppContext"
+
 import useResponsive from "@/hooks/useResponsive"
-import { ACTIVITY_STATE } from "@/types/app"
+
 
 import EditorComponent from "../editor/EditorComponent"
 
 function WorkSpace() {
     const { viewHeight } = useResponsive()
-    const { activityState } = useAppContext()
+   
 
     return (
         <div
